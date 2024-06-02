@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "native-app",
+    "scheme": "native-app",
     "slug": "native-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -18,10 +19,14 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.coresource.aora"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
